@@ -2,11 +2,6 @@ body {
     font-family: iransans;
 }
 
-.header-award {
-    height: 60px;
-    background-image: url("../image/1920.jpg");
-}
-
 @font-face {
     font-family: iransans;
     src: url("../font/IRANSansXRegular.ttf");
@@ -18,110 +13,32 @@ body {
 }
 
 .bi-person-circle {
-    color: #3f52d0;
     font-size: 35px;
+    color: #361cde;
 }
 
-.header-login {
-    color: #3f52d0;
+.p-login {
+    color: #361cde;
 }
 
-.bi-chevron-down {
-    color: #3f52d0;
+.down-login {
     font-size: 13px;
+    color: #361cde;
 }
 
-.bi-cart4 {
-    color: #3f52d0;
-    font-size: 35px;
+.bi-cart-fill {
+    font-size: 30px;
+    color: #361cde;
 }
 
-.row-header {
-    height: 80px;
-}
-
-.bi-chat-left-dots-fill {
+.bi-chat-left-text-fill {
     font-size: 27px;
     color: #ffb700;
 }
 
-.header-phone {
-    border: 1px solid #3f52d0;
-    color: #3f52d0;
-    padding: 6px 15px;
+.p-phone {
+    border: 1px solid #361cde;
+    color: #361cde;
+    padding: 8px 18px;
     border-radius: 5px;
-}
-
-.div-header-login {
-    width: 50px;
-}
-
-.div-header-cart4 {
-    width: 1200px;
-}
-
-.div-header-fill {
-    width: 100px;
-}
-
-.logo {
-    height: 50px;
-    width: 300px;
-}
-
-li {
-    list-style-type: none;
-}
-
-.icon-menu {
-    width: 20px;
-}
-
-.li-menu {
-    font-size: 18px;
-}
-
-.div-menu-logo {
-    width: 130px;
-}
-
-.div-menu-li {
-    width: 1000px;
-}
-
-.page-one {
-    height: 700px;
-
-}
-
-.div-box-searche {
-    height: 80px;
-}
-
-.box-searche {
-    height: 80px;
-}
-
-.border-box-searche {
-    border: 1px solid #3f52d0;
-    background-color: white;
-    height: 65px;
-    width: 1300px;
-}
-
-.div-button-searche {
-    height: 65px;
-    width: 200px;
-
-}
-
-.p-searche {
-    background-color: #3f52d0;
-    height: 55px;
-    width: 190px;
-    color: white;
-}
-
-.input-searche {
-    width: 100px;
 }
