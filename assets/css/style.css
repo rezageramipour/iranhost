@@ -61,11 +61,62 @@ button {
     font-family: iransansXdemibold;
     color: #361cde;
     border: 1px solid #361cde;
-    padding: 15px 85px;
+    width: 250px;
+    height: 60px;
 }
 
 .p-dropdown-login2:hover {
     color: white;
     background-color: #361cde;
     transition: 0.5s;
-}agha mobaa
+}
+
+.bi-person-plus {
+    font-size: 30px;
+    color: #361cde;
+}
+
+.p-dropdown-membership {
+    font-family: iransansXdemibold;
+}
+
+.p-dropdown-membership2 {
+    font-family: iransansXdemibold;
+    color: #361cde;
+    border: 1px solid #361cde;
+    width: 250px;
+    height: 60px;
+}
+
+.p-dropdown-membership2:hover {
+    color: white;
+    background-color: #361cde;
+    transition: 0.5s;
+}
+
+.bi-person {
+    font-size: 30px;
+    color: #361cde;
+}
+
+.p-dropdown-support {
+    font-family: iransansXdemibold;
+}
+
+.p-dropdown-support2 {
+    font-family: iransansXdemibold;
+    color: #361cde;
+    border: 1px solid #361cde;
+    width: 250px;
+    height: 60px;
+}
+
+.p-dropdown-support2:hover {
+    color: white;
+    background-color: #361cde;
+    transition: 0.5s;
+}
+
+.dropdown-login {
+    height: 190px;
+}
