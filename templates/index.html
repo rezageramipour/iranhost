@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.rtl.css">
+    <title>iranhost</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/icon/bootstrap-icons-1.9.1/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/iconbootstrap/bootstrap-icons-1.9.1/iconbootstrap.css">
+
 </head>
 <body>
 
-<div class="container-fluid d-flex justify-content-center header-advertise">
+<div class="container-fluid d-flex justify-content-center">
     <div class="row">
         <div class="col-12 div-header-advertise">
             <a href="index.html">
@@ -23,20 +23,20 @@
 
 <div class="container-fluid text-center">
     <div class="row">
-        <div class="col-8">
-            <div class="col-4">
-                <div class="d-inline-flex mt-3">
-                    <i class="bi bi-person-circle"></i>
-                    <p class="p-login mt-1 pe-2">ورود</p>
-                    <i class="bi bi-chevron-down mt-2 down-login"></i>
+        <div class="col-9">
+            <div class="col-3 ">
+                <div class="d-inline-flex dropdown mt-3">
+                    <button data-bs-toggle="dropdown"><i class="bi bi-person-circle"></i></button>
+                    <button class="p-login mt-1 pe-2" data-bs-toggle="dropdown"> ورود</button>
+                    <button data-bs-toggle="dropdown"><i class="bi bi-chevron-down mt-2 down-login"></i></button>
                 </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="col-12">
+        <div class="col-3">
+            <div class="col-10">
                 <div class="d-inline-flex mt-3">
                     <i class="bi bi-cart-fill"></i>
-                    <i class="bi mt-1 bi-chat-left-text-fill pe-4"></i>
+                    <i class="bi mt-1 bi-chat-left-text-fill pe-4 ps-4"></i>
                     <p class="p-phone">021-83305</p>
                 </div>
             </div>
@@ -44,7 +44,36 @@
     </div>
 </div>
 
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-4">
+            <div class="col-7">
+                <div class="d-inline-flex">
+                    <i class="bi bi-person-check ps-2"></i>
+                    <p class="p-dropdown-login mt-2">ورود</p>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="d-flex justify-content-center">
+                    <p>قبلا عضو شده اید؟ وارد شوید</p>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="d-flex justify-content-center">
+                    <p class="p-dropdown-login2 shadow ">ورود</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div></div>
+            <i class="bi bi-person-plus"></i>
+            <p>عضویت</p>
+        </div>
+    </div>
+</div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="../assets/js/bootstrap.js"></script>
+<script src="../assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>

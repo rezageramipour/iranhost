@@ -42,3 +42,30 @@ body {
     padding: 8px 18px;
     border-radius: 5px;
 }
+
+button {
+    background: none;
+    border: none;
+}
+
+.bi-person-check {
+    font-size: 30px;
+    color: #361cde;
+}
+
+.p-dropdown-login {
+    font-family: iransansXdemibold;
+}
+
+.p-dropdown-login2 {
+    font-family: iransansXdemibold;
+    color: #361cde;
+    border: 1px solid #361cde;
+    padding: 15px 85px;
+}
+
+.p-dropdown-login2:hover {
+    color: white;
+    background-color: #361cde;
+    transition: 0.5s;
+}agha mobaa
