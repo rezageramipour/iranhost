@@ -39,7 +39,7 @@ body {
 .p-phone {
     border: 1px solid #361cde;
     color: #361cde;
-    padding: 8px 18px;
+    padding: 0px 18px;
     border-radius: 5px;
 }
 
@@ -57,6 +57,11 @@ button {
 }
 
 .bi-person-check {
+    font-size: 30px;
+    color: #361cde;
+}
+
+.bi-person-check:hover {
     font-size: 30px;
     color: #361cde;
 }
@@ -127,8 +132,24 @@ button {
 
 .dropdown-login {
     height: 190px;
-
     border: none;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
 
+.logo {
+    height: 50px;
+    width: 300px;
+}
+
+.div-logo {
+    width: 460px;
+}
+
+.menu {
+    width: 1350px;
+    height: 70px;
+}
+
+.down-menu {
+    font-size: 13px;
 }
