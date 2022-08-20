@@ -39,16 +39,8 @@ body {
 .p-phone {
     border: 1px solid #361cde;
     color: #361cde;
-    padding: 0px 18px;
+    padding: 8px 18px;
     border-radius: 5px;
-}
-
-.div-menu {
-    width: 700px;
-}
-
-.div-menu2 {
-    width: 900px;
 }
 
 button {
@@ -138,16 +130,7 @@ button {
 
 .logo {
     height: 50px;
-    width: 300px;
-}
-
-.div-logo {
-    width: 460px;
-}
-
-.menu {
-    width: 1350px;
-    height: 70px;
+    width: 310px;
 }
 
 .down-menu {
