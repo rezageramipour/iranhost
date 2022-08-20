@@ -129,10 +129,47 @@ button {
 }
 
 .logo {
-    height: 50px;
-    width: 310px;
+    height: 32px;
+    width: 200px;
 }
 
 .down-menu {
     font-size: 13px;
+}
+
+.box-domain {
+    border: 2px solid #ffb700;
+}
+
+.h5-box-domain {
+    color: #361cde;
+    font-family: iransansXdemibold;
+}
+
+.p-box-domain {
+    font-size: 18px;
+}
+
+.line-box-domain {
+    border: 1px solid #361cde;
+    height: 200px;
+    width: 0px;
+}
+
+.li-box-domain {
+    font-size: 18px;
+}
+
+.li-box-domain {
+  list-style: none;
+    cursor: pointer;
+}
+.li-box-domain:before {
+  content: "• ";
+    font-size: 20px;
+  color: black;
+}
+
+.li-box-domain:hover:before {
+  color: #ffb700;
 }
