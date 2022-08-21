@@ -129,8 +129,8 @@ button {
 }
 
 .logo {
-    height: 32px;
-    width: 200px;
+    height: 45px;
+    width: 250px;
 }
 
 .down-menu {
@@ -161,15 +161,41 @@ button {
 }
 
 .li-box-domain {
-  list-style: none;
+    list-style: none;
     cursor: pointer;
 }
+
 .li-box-domain:before {
-  content: "• ";
+    content: "• ";
     font-size: 20px;
-  color: black;
+    color: black;
 }
 
 .li-box-domain:hover:before {
-  color: #ffb700;
+    color: #ffb700;
+}
+
+.dropdown-domain {
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    height: 450px;
+    position: relative;
+
+}
+
+
+.dropdown-domain::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #361cde;
+    left: 50%;
+    bottom: -10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.dropdown-domain:hover .dropdown-domain::after {
+    width: 100%;
+    left: 0;
 }
