@@ -271,3 +271,44 @@ button {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     height: 360px;
 }
+
+.box-email-hosting {
+    border: 2px solid #ffb700;
+}
+
+.h5-box-email-hosting {
+    color: #361cde;
+    font-family: iransansXdemibold;
+}
+
+.p-box-email-hosting {
+    font-size: 18px;
+}
+
+.line-box-email-hosting {
+    border: 1px solid #361cde;
+    height: 130px;
+    width: 0px;
+}
+
+.li-box-email-hosting {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.li-box-email-hosting:before {
+    content: "• ";
+    font-size: 20px;
+    color: black;
+}
+
+.li-box-email-hosting:hover:before {
+    color: #ffb700;
+}
+
+.dropdown-email-hosting {
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    height: 360px;
+}
