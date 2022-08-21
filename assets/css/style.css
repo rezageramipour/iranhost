@@ -29,11 +29,13 @@ body {
 .bi-cart-fill {
     font-size: 30px;
     color: #361cde;
+    cursor: pointer;
 }
 
 .bi-chat-left-text-fill {
     font-size: 27px;
     color: #ffb700;
+    cursor: pointer;
 }
 
 .p-phone {
@@ -179,23 +181,48 @@ button {
     border: none;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     height: 450px;
-    position: relative;
-
 }
 
-
-.dropdown-domain::after {
-    position: absolute;
-    content: "";
-    width: 0%;
-    height: 4px;
-    background-color: #361cde;
-    left: 50%;
-    bottom: -10px;
-    transition: all 0.4s ease-in-out;
+.box-web-hosting {
+    border: 2px solid #ffb700;
 }
 
-.dropdown-domain:hover .dropdown-domain::after {
-    width: 100%;
-    left: 0;
+.h5-box-web-hosting {
+    color: #361cde;
+    font-family: iransansXdemibold;
+}
+
+.p-box-web-hosting {
+    font-size: 18px;
+}
+
+.line-box-web-hosting {
+    border: 1px solid #361cde;
+    height: 130px;
+    width: 0px;
+}
+
+.li-box-web-hosting {
+    font-size: 18px;
+}
+
+.li-box-web-hosting {
+    list-style: none;
+    cursor: pointer;
+}
+
+.li-box-web-hosting:before {
+    content: "• ";
+    font-size: 20px;
+    color: black;
+}
+
+.li-box-web-hosting:hover:before {
+    color: #ffb700;
+}
+
+.line-box-web-hosting2 {
+    border: 1px solid #361cde;
+    height: 90px;
+    width: 0px;
 }
