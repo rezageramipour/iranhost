@@ -202,11 +202,9 @@ button {
     width: 0px;
 }
 
-.li-box-web-hosting {
-    font-size: 18px;
-}
 
 .li-box-web-hosting {
+    font-size: 18px;
     list-style: none;
     cursor: pointer;
 }
@@ -228,6 +226,47 @@ button {
 }
 
 .dropdown-web-hosting {
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    height: 360px;
+}
+
+.box-website {
+    border: 2px solid #ffb700;
+}
+
+.h5-box-website {
+    color: #361cde;
+    font-family: iransansXdemibold;
+}
+
+.p-box-website {
+    font-size: 18px;
+}
+
+.line-box-website {
+    border: 1px solid #361cde;
+    height: 65px;
+    width: 0px;
+}
+
+.li-box-website {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.li-box-website:before {
+    content: "• ";
+    font-size: 20px;
+    color: black;
+}
+
+.li-box-website:hover:before {
+    color: #ffb700;
+}
+
+.dropdown-website {
     border: none;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     height: 360px;
