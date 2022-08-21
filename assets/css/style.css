@@ -347,3 +347,9 @@ button {
 .li-box-server:hover:before {
     color: #ffb700;
 }
+
+.dropdown-server {
+     border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    height: 380px;
+}
