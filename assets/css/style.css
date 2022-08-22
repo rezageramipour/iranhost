@@ -394,3 +394,40 @@ button {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     height: 380px;
 }
+
+.img-page-one {
+    width: 1900px;
+    height: 700px;
+}
+
+.box-search {
+    margin-top: -30px;
+    background-color: white;
+    height: 80px;
+}
+
+.box-border-search {
+    border: 2px solid #361cde;
+    height: 65px;
+    width: 1300px;
+}
+
+.btn-form {
+    width: 180px;
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    color: white;
+    background-color: #361cde;
+}
+
+.btn-form:hover {
+    background-color: #2c18b2;
+    color: white;
+}
+
+.form-control {
+    width: 1100px;
+    border: 0px;
+    box-shadow: 0 0 0 white;
+}
