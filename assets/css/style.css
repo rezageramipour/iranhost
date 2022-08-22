@@ -451,8 +451,8 @@ button {
 
 .title-page-two {
     height: 100px;
-   background-image: linear-gradient(to bottom right, transparent 50%, #361cde 101px);
-    background-size: 100% ;
+    background-image: linear-gradient(to bottom right, transparent 50%, #361cde 101px);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: left, right;
 }
@@ -504,6 +504,10 @@ button {
     width: 80px;
 }
 
+.div-img-security {
+    height: 110px;
+}
+
 .security-page-two {
     background-color: white;
     height: 200px;
@@ -514,7 +518,7 @@ button {
 .uptime-page-two {
     background-color: white;
     height: 200px;
-    width:200px;
+    width: 200px;
     border: 1px solid #361cde;
 }
 
@@ -523,14 +527,38 @@ button {
     width: 80px;
 }
 
+.div-img-uptime {
+    height: 110px;
+}
+
 .support-page-two {
-        background-color: white;
+    background-color: white;
     height: 200px;
-    width:200px;
+    width: 200px;
     border: 1px solid #361cde;
 }
 
 .img-support {
+    height: 80px;
+    width: 80px;
+}
+
+.div-img-support {
+    height: 110px;
+}
+
+.garranty-page-two {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #361cde;
+}
+
+.div-img-garranty {
+    height: 110px;
+}
+
+.img-garranty {
     height: 80px;
     width: 80px;
 }
