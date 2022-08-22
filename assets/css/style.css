@@ -431,3 +431,106 @@ button {
     border: 0px;
     box-shadow: 0 0 0 white;
 }
+
+.box-left {
+    background-color: #ff9e0c;
+    height: 100px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.bi-person-fill {
+    color: white;
+    font-size: 50px;
+}
+
+.p-box-left {
+    color: white;
+    font-family: iransansXdemibold;
+}
+
+.title-page-two {
+    height: 100px;
+   background-image: linear-gradient(to bottom right, transparent 50%, #361cde 101px);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.page-two {
+    background-color: #361cde;
+    height: 600px;
+    transform: rotate(0deg) /*translateX(180px);*/
+}
+
+.h-page-two {
+    color: white;
+    font-family: iransansXdemibold;
+    height: 100px;
+}
+
+.ul-page-two {
+    color: white;
+    font-size: 18px;
+}
+
+.li-page-two {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.li-page-two:before {
+    content: "• ";
+    font-size: 25px;
+    color: #ffb700;
+}
+
+.button-page-two {
+    border: 1px solid #ffb700;
+    color: white;
+    font-family: iransansXdemibold;
+    width: 200px;
+    height: 50px;
+}
+
+.button-page-two:hover {
+    background-color: #ffb700;
+    transition: 0.5s;
+}
+
+.img-security {
+    height: 80px;
+    width: 80px;
+}
+
+.security-page-two {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #361cde;
+}
+
+.uptime-page-two {
+    background-color: white;
+    height: 200px;
+    width:200px;
+    border: 1px solid #361cde;
+}
+
+.img-uptime {
+    height: 80px;
+    width: 80px;
+}
+
+.support-page-two {
+        background-color: white;
+    height: 200px;
+    width:200px;
+    border: 1px solid #361cde;
+}
+
+.img-support {
+    height: 80px;
+    width: 80px;
+}
