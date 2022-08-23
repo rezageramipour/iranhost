@@ -116,7 +116,7 @@ button {
 
 .li-box-domain:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -145,7 +145,7 @@ button {
 
 .li-box-web-hosting:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -171,14 +171,13 @@ button {
 }
 
 .li-box-website {
-    font-size: 18px;
     list-style: none;
     cursor: pointer;
 }
 
 .li-box-website:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -188,12 +187,6 @@ button {
 
 .dropdown-website {
     border: none;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-    height: 360px;
-}
-
-.box-email-hosting {
-    border: 2px solid #ffb700;
 }
 
 .h5-box-email-hosting {
@@ -201,25 +194,18 @@ button {
     font-family: iransansXdemibold;
 }
 
-.p-box-email-hosting {
-    font-size: 18px;
-}
-
 .line-box-email-hosting {
-    border: 1px solid #361cde;
-    height: 130px;
     width: 0px;
 }
 
 .li-box-email-hosting {
-    font-size: 18px;
     list-style: none;
     cursor: pointer;
 }
 
 .li-box-email-hosting:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -229,12 +215,6 @@ button {
 
 .dropdown-email-hosting {
     border: none;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-    height: 360px;
-}
-
-.box-server {
-    border: 2px solid #ffb700;
 }
 
 .h5-box-server {
@@ -242,25 +222,18 @@ button {
     font-family: iransansXdemibold;
 }
 
-.p-box-server {
-    font-size: 18px;
-}
-
 .line-box-server {
-    border: 1px solid #361cde;
-    height: 128px;
     width: 0px;
 }
 
 .li-box-server {
-    font-size: 18px;
     list-style: none;
     cursor: pointer;
 }
 
 .li-box-server:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -270,12 +243,6 @@ button {
 
 .dropdown-server {
     border: none;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-    height: 380px;
-}
-
-.box-representation {
-    border: 2px solid #ffb700;
 }
 
 .h5-box-representation {
@@ -283,25 +250,18 @@ button {
     font-family: iransansXdemibold;
 }
 
-.p-box-representation {
-    font-size: 18px;
-}
-
 .line-box-representation {
-    border: 1px solid #361cde;
-    height: 100px;
     width: 0px;
 }
 
 .li-box-representation {
-    font-size: 18px;
     list-style: none;
     cursor: pointer;
 }
 
 .li-box-representation:before {
     content: "• ";
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
@@ -311,8 +271,6 @@ button {
 
 .dropdown-representation {
     border: none;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-    height: 380px;
 }
 
 .img-page-one {
