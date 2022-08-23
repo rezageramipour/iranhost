@@ -13,7 +13,6 @@ body {
 }
 
 .bi-person-circle {
-    font-size: 35px;
     color: #361cde;
 }
 
@@ -22,27 +21,21 @@ body {
 }
 
 .down-login {
-    font-size: 13px;
     color: #361cde;
 }
 
 .bi-cart-fill {
-    font-size: 30px;
     color: #361cde;
     cursor: pointer;
 }
 
 .bi-chat-left-text-fill {
-    font-size: 27px;
     color: #ffb700;
     cursor: pointer;
 }
 
 .p-phone {
-    border: 1px solid #361cde;
     color: #361cde;
-    padding: 8px 18px;
-    border-radius: 5px;
 }
 
 button {
@@ -51,12 +44,6 @@ button {
 }
 
 .bi-person-check {
-    font-size: 30px;
-    color: #361cde;
-}
-
-.bi-person-check:hover {
-    font-size: 30px;
     color: #361cde;
 }
 
@@ -563,4 +550,10 @@ button {
 .img-garranty {
     height: 80px;
     width: 80px;
+}
+
+.img-header {
+    background-image: url("../image/1920.jpg");
+    height: 60px;
+    background-repeat: no-repeat;
 }

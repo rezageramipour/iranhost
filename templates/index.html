@@ -13,10 +13,14 @@
 
 <div class="container-fluid text-center">
     <div class="row">
-        <div class="col-12 p-0">
-            <a href="index.html">
-                <img src="../assets/image/1920.jpg" alt="img-header">
-            </a>
+        <div class="col-12 col-sm-12 p-0">
+            <picture>
+                <source srcset="../assets/image/375.jpg" media="(max-width: 375px)">
+                <source srcset="../assets/image/768.jpg" media="(max-width: 768px)">
+                <source srcset="../assets/image/992.jpg" media="(max-width: 992px)">
+                <source srcset="../assets/image/1200.jpg" media="(max-width: 1200px)">
+                <img src="../assets/image/1920.jpg" alt="">
+            </picture>
         </div>
     </div>
 </div>
@@ -27,7 +31,7 @@
             <div class="row">
                 <div class="col-5">
                     <div data-bs-toggle="dropdown">
-                        <button><i class="bi bi-person-circle"></i></button>
+                        <button><i class="bi bi-person-circle display-6"></i></button>
                         <button class="p-login ps-2 pe-2">ورود</button>
                         <button><i class="bi bi-chevron-down mt-3 down-login"></i></button>
                         <div class="container-fluid dropdown-login dropdown-menu">
@@ -38,7 +42,7 @@
                                             <div class="row">
                                                 <div class="col-7 text-center">
                                                     <div class="d-inline-flex">
-                                                        <i class="bi bi-person-check ps-2"></i>
+                                                        <i class="bi bi-person-check display-6 ps-2"></i>
                                                         <p class="p-dropdown-login mt-2">ورود</p>
                                                     </div>
                                                 </div>
@@ -57,7 +61,7 @@
                                             <div class="col-12 text-end">
                                                 <div class="row">
                                                     <div class="col-8 text-start">
-                                                        <button class="p-dropdown-login2 shadow ">
+                                                        <button class="p-dropdown-login2 border-1 shadow ">
                                                             ورود
                                                         </button>
                                                     </div>
@@ -136,9 +140,9 @@
         <div class="col-6">
             <div class="row">
                 <div class="col-10 text-start">
-                    <i class="bi bi-cart-fill"></i>
-                    <i class="bi mt-1 bi-chat-left-text-fill pe-4 ps-4"></i>
-                    <button class="p-phone">021-83305</button>
+                    <i class="bi bi-cart-fill display-6"></i>
+                    <i class="bi mt-1 bi-chat-left-text-fill display-6 pe-4 ps-4"></i>
+                    <button class="p-phone border border-primary rounded pt-2 pb-2 pe-3 ps-3">021-83305</button>
                 </div>
             </div>
         </div>
@@ -558,7 +562,8 @@
                     <div class="box-left shadow-lg d-flex justify-content-center align-items-center rounded-end position-fixed">
                         <div class="d-block">
                             <i class="bi bi-person-fill d-flex justify-content-center"></i>
-                            <p class="d-flex justify-content-center align-items-center mt-2 p-box-left user-select-none">گفتگو آنلاین</p>
+                            <p class="d-flex justify-content-center align-items-center mt-2 p-box-left user-select-none">
+                                گفتگو آنلاین</p>
                         </div>
                     </div>
                 </div>
