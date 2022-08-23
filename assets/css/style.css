@@ -54,9 +54,6 @@ button {
 .p-dropdown-login2 {
     font-family: iransansXdemibold;
     color: #361cde;
-    border: 1px solid #361cde;
-    width: 250px;
-    height: 60px;
 }
 
 .p-dropdown-login2:hover {
@@ -66,7 +63,6 @@ button {
 }
 
 .bi-person-plus {
-    font-size: 30px;
     color: #361cde;
 }
 
@@ -77,9 +73,6 @@ button {
 .p-dropdown-membership2 {
     font-family: iransansXdemibold;
     color: #361cde;
-    border: 1px solid #361cde;
-    width: 250px;
-    height: 60px;
 }
 
 .p-dropdown-membership2:hover {
@@ -89,7 +82,6 @@ button {
 }
 
 .bi-person {
-    font-size: 30px;
     color: #361cde;
 }
 
@@ -100,9 +92,6 @@ button {
 .p-dropdown-support2 {
     font-family: iransansXdemibold;
     color: #361cde;
-    border: 1px solid #361cde;
-    width: 250px;
-    height: 60px;
 }
 
 .p-dropdown-support2:hover {
