@@ -318,85 +318,17 @@ button {
 
 .li-page-two:before {
     content: "• ";
-    font-size: 25px;
+    font-size: 18px;
     color: #ffb700;
 }
 
 .button-page-two {
-    border: 1px solid #ffb700;
-    color: white;
     font-family: iransansXdemibold;
-    width: 200px;
-    height: 50px;
 }
 
 .button-page-two:hover {
     background-color: #ffb700;
     transition: 0.5s;
-}
-
-.img-security {
-    height: 80px;
-    width: 80px;
-}
-
-.div-img-security {
-    height: 110px;
-}
-
-.security-page-two {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    border: 1px solid #361cde;
-}
-
-.uptime-page-two {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    border: 1px solid #361cde;
-}
-
-.img-uptime {
-    height: 80px;
-    width: 80px;
-}
-
-.div-img-uptime {
-    height: 110px;
-}
-
-.support-page-two {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    border: 1px solid #361cde;
-}
-
-.img-support {
-    height: 80px;
-    width: 80px;
-}
-
-.div-img-support {
-    height: 110px;
-}
-
-.garranty-page-two {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    border: 1px solid #361cde;
-}
-
-.div-img-garranty {
-    height: 110px;
-}
-
-.img-garranty {
-    height: 80px;
-    width: 80px;
 }
 
 .img-header {
