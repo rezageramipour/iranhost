@@ -346,6 +346,38 @@ button {
         background-color: white;
         z-index: 20;
     }
+
+    .font-box {
+        font-size: 25px;
+    }
+
+    .li-box {
+        font-size: 14px;
+    }
+
+    .button-box {
+        width: 800px;
+    }
+
+    .box-button {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .font-box {
+        font-family: iransansXdemibold;
+        font-size: 15px;
+    }
+
+    .li-box {
+        font-family: iransansXdemibold;
+        font-size: 11px;
+    }
+    .button-box {
+        font-size: 12px;
+    }
 }
 
 
