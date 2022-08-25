@@ -362,9 +362,18 @@ button {
     .footer {
         height: 750px;
     }
+
+    .p-phone {
+        display: none;
+    }
+
+    .div-box-header {
+        position: absolute;
+        z-index: 50;
+    }
 }
 
-@media only screen and (max-width: 590px){
+@media only screen and (max-width: 590px) {
     .font-box {
         font-family: iransansXdemibold;
         font-size: 15px;
@@ -374,6 +383,7 @@ button {
         font-family: iransansXdemibold;
         font-size: 11px;
     }
+
     .button-box {
         font-size: 12px;
     }
@@ -387,3 +397,21 @@ button {
 .li-menu {
     font-size: 14px;
 }
+
+.header {
+    background-color: #361cde;
+    height: 60px;
+}
+
+.box-font {
+    font-family: iransansXdemibold;
+}
+
+.font {
+    text-shadow: 2px 2px 0 black;
+}
+
+.div-font {
+    height: 70px;
+}
+
