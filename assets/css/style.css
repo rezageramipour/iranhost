@@ -419,6 +419,7 @@ button {
     font-size: 15px;
 }
 
-.div-logo {
-    height: 300px;
+.h-row {
+    height: 62vh;
+    right: 0;
 }
