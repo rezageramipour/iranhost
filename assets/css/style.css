@@ -359,9 +359,8 @@ button {
         width: 800px;
     }
 
-    .box-button {
-        width: 400px;
-        height: 400px;
+    .footer {
+        height: 750px;
     }
 }
 
