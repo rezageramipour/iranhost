@@ -337,14 +337,22 @@ button {
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 800px) {
+    .w-menu {
+        width: 0px;
+    }
 
-@media only screen and (min-width: 800px) {
-    .bi-list {
-        visibility: hidden;
+    .div-menu {
+        background-color: white;
+        z-index: 20;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .domain {
-    }
+
+.ul-menu {
+    list-style-type: none;
+}
+
+.li-menu {
+    font-size: 14px;
 }
