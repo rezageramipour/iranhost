@@ -371,6 +371,11 @@ button {
         position: absolute;
         z-index: 50;
     }
+
+    .h-row {
+        height: 50vh;
+    }
+
 }
 
 @media only screen and (max-width: 590px) {
@@ -417,9 +422,4 @@ button {
 
 .miz {
     font-size: 15px;
-}
-
-.h-row {
-    height: 62vh;
-    right: 0;
 }
